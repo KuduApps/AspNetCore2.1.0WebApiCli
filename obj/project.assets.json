@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": [
+      "Microsoft.AspNetCore.App >= 2.1.0",
+      "Microsoft.NETCore.App >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "D:\\home\\.nuget": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\home\\21webapi\\21webapi.csproj",
+      "projectName": "21webapi",
+      "projectPath": "D:\\home\\21webapi\\21webapi.csproj",
+      "packagesPath": "D:\\home\\.nuget",
+      "outputPath": "D:\\home\\21webapi\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "D:\\local\\AppData\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.1.0, )",
+            "autoReferenced": true
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.1.0, )",
+            "autoReferenced": true
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App with version (>= 2.1.0)\r\n  - Found 32 version(s) in nuget.org [ Nearest version: 2.1.0-rc1 ]",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.App with version (>= 2.1.0)\r\n  - Found 3 version(s) in nuget.org [ Nearest version: 2.1.0-rc1-final ]",
+      "libraryId": "Microsoft.AspNetCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
+}
